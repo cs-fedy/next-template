@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "transform_id:626efceaf06e79fa2bff06fb",
+    "name": "admin",
+    "resources": [
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f4f",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f4c",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f4d",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f4e",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f52",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f59",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f51"
+    ]
+  },
+  {
+    "_id": "transform_id:626efd314d3f4c1b0729efc4",
+    "name": "student",
+    "resources": ["transform_id:5b9f4f6c9f5c3f4a6d3c6f4f"]
+  },
+  {
+    "_id": "transform_id:626efd388516605c406ffa8c",
+    "name": "instructor",
+    "resources": ["transform_id:5b9f4f6c9f5c3f4a6d3c6f4f"]
+  },
+  {
+    "_id": "transform_id:626efd42fc91dad0421e2937",
+    "name": "content_creator",
+    "resources": [
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f4f",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f50",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f51",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f53",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f54",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f55",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f56",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f57",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f58",
+      "transform_id:5b9f4f6c9f5c3f4a6d3c6f5a"
+    ]
+  },
+  {
+    "_id": "transform_id:626efd4a515fa281a9060e80",
+    "name": "all",
+    "resources": ["transform_id:5b9f4f6c9f5c3f4a6d3c6f4f"]
+  }
+]

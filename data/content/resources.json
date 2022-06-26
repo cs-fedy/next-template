@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f4c",
+    "name": "users",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f4d",
+    "name": "roles",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f4e",
+    "name": "resources",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f4f",
+    "name": "self",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f50",
+    "name": "super_skills",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f51",
+    "name": "paths",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f52",
+    "name": "vouchers",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f53",
+    "name": "skills",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f54",
+    "name": "checkpoints",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f55",
+    "name": "quizzes",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f56",
+    "name": "challenges",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f57",
+    "name": "projects",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f58",
+    "name": "edges",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f59",
+    "name": "instructors",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c3f4a6d3c6f5a",
+    "name": "special_quizzes",
+    "permissions": {
+      "read": true,
+      "write": true,
+      "update": true,
+      "delete": true
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "transform_id:5b5e3c621c7d450ad7c7c8f8",
+    "label": "JavaScript drawing",
+    "description": "By working on this project, you can learn how to use and implement JavaScripts drawing capabilities. This skill will come in handy for enhancing the appeal of static pages by adding graphical elements to them.",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1652096424/files/MD/challenge_javascript_drawing_jubday.md",
+    "requiredScore": 100,
+    "score": 150
+  },
+  {
+    "_id": "transform_id:5b5e3c621c7d450ad7c7c8f9",
+    "label": "Search engine result page",
+    "description": "This is a super interesting and exciting project! In this project, you have to create a search engine result page that resembles Googles SERPs.",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1652099437/files/MD/challenge_search_engine_z91qen.md",
+    "requiredScore": 100,
+    "score": 150
+  },
+  {
+    "_id": "transform_id:5b5e3c621c7d450ad7c7c8fa",
+    "label": "Note log",
+    "description": "This is a great web app for tracking events and resolving messy calendar problems.",
+    "content_link": "https://res.cloudinary.com/f0odyy/raw/upload/v1652099561/files/MD/challenge_note_log_gwvmpa.md",
+    "requiredScore": 100,
+    "score": 150
+  }
+]

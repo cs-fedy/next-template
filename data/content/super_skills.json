@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "transform_id:625fee38804f18099844f9be",
+    "label": "HTML - Hypertext Markup Language",
+    "description": "Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.",
+    "score": 0,
+    "virtualName": "superSkills",
+    "x": -385,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:625fee54eb78ac1b3f9b6d4a",
+    "label": "CSS - Cascading Style Sheets",
+    "description": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+    "score": 0,
+    "virtualName": "superSkills",
+    "x": 1260,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:625fee5aeb78ac1b3f9b6d4b",
+    "label": "JavaScript - JavaScript",
+    "description": "JavaScript is a lightweight, interpreted programming language with first-class functions. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is a cornerstone technology of the World Wide Web.",
+    "score": 0,
+    "virtualName": "superSkills",
+    "x": 3049,
+    "y": 300
+  }
+]

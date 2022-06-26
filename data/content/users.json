@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "transform_id:5b9f4f6c9f5c9f6c9f5c9f5c",
+    "email": "admin@platform.com",
+    "password": "transform_password:platform_password2022",
+    "firstName": "admin",
+    "lastName": "platform",
+    "verified": true,
+    "roles": ["transform_id:626efceaf06e79fa2bff06fb", "transform_id:626efd4a515fa281a9060e80"],
+    "isStudent": false
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c9f6c9f5c9f5d",
+    "email": "content_creator@platform.com",
+    "password": "transform_password:platform_password2022",
+    "firstName": "content",
+    "lastName": "creator",
+    "verified": true,
+    "roles": ["transform_id:626efd42fc91dad0421e2937", "transform_id:626efd4a515fa281a9060e80"],
+    "isStudent": false
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c9f6c9f5c9f5e",
+    "email": "student@platform.com",
+    "password": "transform_password:platform_password2022",
+    "firstName": "opus",
+    "lastName": "student",
+    "verified": true,
+    "roles": ["transform_id:626efd314d3f4c1b0729efc4", "transform_id:626efd4a515fa281a9060e80"],
+    "isStudent": true
+  },
+  {
+    "_id": "transform_id:5b9f4f6c9f5c9f6c9f5c9f5f",
+    "email": "instructor@platform.com",
+    "password": "transform_password:platform_password2022",
+    "firstName": "opus",
+    "lastName": "instructor",
+    "verified": true,
+    "roles": ["transform_id:626efd388516605c406ffa8c", "transform_id:626efd4a515fa281a9060e80"],
+    "isStudent": false
+  }
+]

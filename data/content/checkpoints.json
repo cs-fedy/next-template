@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "transform_id:5bbe52b9f9f8b8b9c8b8b9c9",
+    "label": "A Tribute Page",
+    "description": "The simplest website you can make as a beginner is a tribute page of someone you admire in your life. It requires only basic knowledge of HTML and CSS.",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650464101/files/MD/checkpoint_tribute_xx9g59.md",
+    "score": 75,
+    "virtualName": "checkpoints",
+    "x": 1100,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5bbe52b9f9f8b8b9c8b8b9c8",
+    "label": "Parallax Website",
+    "description": "A parallax website includes fixed images in the background that you can keep in place and you can scroll down the page to see different parts of the image.",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650464238/files/MD/checkpoint_parallax_vokw7j.md",
+    "score": 75,
+    "virtualName": "checkpoints",
+    "x": 2870,
+    "y": 300
+  }
+]

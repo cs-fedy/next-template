@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17f8",
+    "label": "Say hello to HTML Elements",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650457387/files/MD/html_elements_tmpttv.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": -55,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17f9",
+    "label": "Headline with the h2 Element",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650457387/files/MD/h2_element_tmpttv.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 366,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17fa",
+    "label": "Inform with the Paragraph Element",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650458545/files/MD/html_paragraph_z2j6pu.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 799,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17fb",
+    "label": "Change the Color of Text",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650458972/files/MD/css_change_color_khyvez.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 1526,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17fc",
+    "label": "Use CSS Selectors to Style Elements",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650459349/files/MD/css_style_tbhb7u.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 1910,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17fd",
+    "label": "Use a CSS Class to Style an Element",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650459561/files/MD/css_class_yce4ii.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 2554,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17fe",
+    "label": "Comment Your JavaScript Code",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650459812/files/MD/js_comments_xx3uu5.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 3260,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d17ff",
+    "label": "Declare JavaScript Variables",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650459999/files/MD/js_variables_dbucbh.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 3750,
+    "y": 300
+  },
+  {
+    "_id": "transform_id:5a422aa71b54a676234d1800",
+    "label": "Storing Values with the Assignment Operator",
+    "contentLink": "https://res.cloudinary.com/f0odyy/raw/upload/v1650460270/files/MD/js_store_var_jdb8vj.md",
+    "score": 25,
+    "virtualName": "skills",
+    "x": 4200,
+    "y": 300
+  }
+]
