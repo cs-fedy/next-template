@@ -22,7 +22,13 @@ module.exports = async (mongo) => {
 
   const promises = transformedEnrolls.map((enroll) => {
     const { progressPointer: node, _id: enrolledPath, student } = enroll
-    return nodeStatusCollection.insertOne({ node, enrolledPath, student, isRated: true, score: 0 })
+    return nodeStatusCollection.insertOne({
+      node,
+      enrolledPath,
+      student,
+      isRated: true,
+      score: 0,
+    })
   })
   await Promise.all(promises)
 }

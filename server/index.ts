@@ -1,7 +1,7 @@
-import { logger, config } from './configs'
-import { mongo as connectDb } from './db'
-import app from './app'
 import { Server } from 'http'
+import app from './app'
+import { config, logger } from './configs'
+import { mongo as connectDb } from './db'
 
 let server: Server
 connectDb().then(() => {

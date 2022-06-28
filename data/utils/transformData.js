@@ -37,7 +37,8 @@ const transformString = async (value) => {
     const [prefix, suffix] = value.split(':')
     if (prefix === 'transform_id') {
       return ObjectId(suffix)
-    } else if (prefix === 'transform_password') return await bcrypt.hash(suffix, 12)
+    } else if (prefix === 'transform_password')
+      return await bcrypt.hash(suffix, 12)
   }
 
   return value

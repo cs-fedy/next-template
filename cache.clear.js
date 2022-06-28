@@ -10,7 +10,7 @@ const clearCache = async () => {
 
   console.log('🌱 clearing the redis cache 🥷')
   await redis.flushall()
-  
+
   console.log('🌱 cache cleared 🥷')
   redis.quit()
 }

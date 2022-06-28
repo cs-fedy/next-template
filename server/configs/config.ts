@@ -1,12 +1,8 @@
 import dotenv from 'dotenv'
-import path from 'path'
 import Joi from 'joi'
+import path from 'path'
 
-const envFileName = '.env'
-if (process.env.NODE_ENV == 'production') {
-  envFileName.concat('.prod')
-}
-
+const envFileName = `.env${process.env.NODE_ENV}`
 const envPath = __dirname.indexOf('config')
   ? `../../${envFileName}`
   : `../${envFileName}`

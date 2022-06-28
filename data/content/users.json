@@ -6,7 +6,10 @@
     "firstName": "admin",
     "lastName": "platform",
     "verified": true,
-    "roles": ["transform_id:626efceaf06e79fa2bff06fb", "transform_id:626efd4a515fa281a9060e80"],
+    "roles": [
+      "transform_id:626efceaf06e79fa2bff06fb",
+      "transform_id:626efd4a515fa281a9060e80"
+    ],
     "isStudent": false
   },
   {
@@ -16,7 +19,10 @@
     "firstName": "content",
     "lastName": "creator",
     "verified": true,
-    "roles": ["transform_id:626efd42fc91dad0421e2937", "transform_id:626efd4a515fa281a9060e80"],
+    "roles": [
+      "transform_id:626efd42fc91dad0421e2937",
+      "transform_id:626efd4a515fa281a9060e80"
+    ],
     "isStudent": false
   },
   {
@@ -26,7 +32,10 @@
     "firstName": "opus",
     "lastName": "student",
     "verified": true,
-    "roles": ["transform_id:626efd314d3f4c1b0729efc4", "transform_id:626efd4a515fa281a9060e80"],
+    "roles": [
+      "transform_id:626efd314d3f4c1b0729efc4",
+      "transform_id:626efd4a515fa281a9060e80"
+    ],
     "isStudent": true
   },
   {
@@ -36,7 +45,10 @@
     "firstName": "opus",
     "lastName": "instructor",
     "verified": true,
-    "roles": ["transform_id:626efd388516605c406ffa8c", "transform_id:626efd4a515fa281a9060e80"],
+    "roles": [
+      "transform_id:626efd388516605c406ffa8c",
+      "transform_id:626efd4a515fa281a9060e80"
+    ],
     "isStudent": false
   }
 ]

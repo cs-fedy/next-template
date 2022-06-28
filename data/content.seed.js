@@ -18,7 +18,11 @@ module.exports = async (mongo) => {
 
   //* seeding superskills collection
   console.log('🌱 Seeding superskills collection 🍀')
-  await seedNodes(mongo, superSkillsCollection, await readJsonFile('super_skills.json'))
+  await seedNodes(
+    mongo,
+    superSkillsCollection,
+    await readJsonFile('super_skills.json'),
+  )
 
   //* seeding skills collection
   console.log('🌱 Seeding skills collection 🍀')
@@ -30,11 +34,19 @@ module.exports = async (mongo) => {
 
   //* seeding checkpoints collection
   console.log('🌱 Seeding checkpoints collection 🍀')
-  await seedNodes(mongo, checkpointsCollection, await readJsonFile('checkpoints.json'))
+  await seedNodes(
+    mongo,
+    checkpointsCollection,
+    await readJsonFile('checkpoints.json'),
+  )
 
   //* seeding projects collection
   console.log('🌱 Seeding projects collection 🍀')
-  await seedNodes(mongo, projectsCollection, await readJsonFile('projects.json'))
+  await seedNodes(
+    mongo,
+    projectsCollection,
+    await readJsonFile('projects.json'),
+  )
 
   //* seeding edges collection
   console.log('🌱 Seeding edges collection 🍀')
@@ -60,9 +72,13 @@ const seedNodes = async (mongo, collection, data) => {
 
   const promises = data.map(async (element) => {
     const transformedElement = await transformData(element)
-    const collectionElement = _.omit(transformedElement, ['virtualName', 'x', 'y'])
+    const collectionElement = _.omit(transformedElement, [
+      'virtualName',
+      'x',
+      'y',
+    ])
     const { virtualName, x, y, _id: nodeId } = transformedElement
-    
+
     collection.insertOne(collectionElement)
     nodesCollection.insertOne({ virtualName, data: nodeId, x, y })
   })

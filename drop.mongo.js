@@ -28,8 +28,12 @@ const dropDb = () => {
     const nodesStatusCollection = mongo.db('test').collection('nodesstatuses')
     const vouchersCollection = mongo.db('test').collection('vouchers')
     const statisticsCollection = mongo.db('test').collection('statistics')
-    const specialQuizzesCollection = mongo.db('test').collection('specialquizzes')
-    const challengeStatusCollection = mongo.db('test').collection('challengesstatuses')
+    const specialQuizzesCollection = mongo
+      .db('test')
+      .collection('specialquizzes')
+    const challengeStatusCollection = mongo
+      .db('test')
+      .collection('challengesstatuses')
     const messagesCollection = mongo.db('test').collection('messages')
     const roomsCollection = mongo.db('test').collection('rooms')
     const roomsMembersCollection = mongo.db('test').collection('roommembers')
