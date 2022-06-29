@@ -2,7 +2,8 @@ import dotenv from 'dotenv'
 import Joi from 'joi'
 import path from 'path'
 
-const envFileName = `.env${process.env.NODE_ENV}`
+const envFileName = '.env'
+if (process.env.NODE_ENV) envFileName.concat(`.${process.env.NODE_ENV}`)
 const envPath = __dirname.indexOf('config')
   ? `../../${envFileName}`
   : `../${envFileName}`
@@ -30,7 +31,7 @@ if (error) {
   throw new Error(`Config validation error: ${error.message}`)
 }
 
-export default {
+const config = {
   env: envVars.NODE_ENV,
   port: envVars.PORT,
   baseUrl: `http://localhost:${envVars.PORT}`,
@@ -46,3 +47,5 @@ export default {
     },
   },
 }
+
+export default config
