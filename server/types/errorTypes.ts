@@ -36,7 +36,9 @@ export class NotFoundError extends BaseError {
 
 export class UnauthorizedRequest extends BaseError {
   constructor(
-    errorPayload = { msg: 'You are not authorized to access this route' },
+    errorPayload: ErrorPayload = {
+      msg: 'You are not authorized to access this route',
+    },
   ) {
     super(HttpStatus.UNAUTHORIZED, HttpMessages.H401, errorPayload, true)
   }

@@ -1,7 +1,8 @@
-import { Request, Response, NextFunction } from 'express'
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { NextFunction, Request, Response } from 'express'
 import { BaseError } from '../common'
 
-export default (
+const errorHandler = (
   err: BaseError,
   req: Request,
   res: Response,
@@ -17,3 +18,5 @@ export default (
 
   res.status(statusCode).send(response)
 }
+
+export default errorHandler
